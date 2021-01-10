@@ -1,0 +1,30 @@
+.guid-container {
+  position: absolute;
+  display: flex;
+  width: 15em;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  
+  padding: 2px;
+  border-radius: 7px;
+}
+
+.guid-dot {
+  background: #00000052;
+  box-shadow: 0px 0px 3px #000000d5;
+  border-radius: 3px;
+  margin-bottom: 0em;
+  height: 6px;
+  margin-left: 3px;
+  flex: 1;
+  transition: 1.6s;
+  border: solid 1px #dfdfdfd5;
+  cursor: pointer;
+}
+
+.guid-dot.active {
+  background: rgb(224, 224, 224);
+  flex: 2;
+}

@@ -1,0 +1,16 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.carousel {
+  
+}
+
+.slick-dots li {
+  button:before {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    font-size: 15px !important;
+  }
+}
