@@ -1,0 +1,59 @@
+.HomeInsights {
+  position: relative;
+  width: 90vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  grid-row-gap: 50px;
+}
+
+.InsightTile {
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.InsightTile.bg-purple {
+  background-color: #9F7AEA;
+}
+
+.InsightTile.bg-blue {
+  background-color: #667EEA;
+}
+
+.InsightTile.bg-pink {
+  background-color: #ED64A6;
+}
+
+.InsightTile.bg-green {
+  background-color: #3ABAB4;
+}
+
+.month {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.date {
+  font-size: 4em;
+  color: #fff;
+  font-weight: 800;
+}
+
+.event {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 450;
+}
+
+
+

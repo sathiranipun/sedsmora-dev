@@ -6,7 +6,7 @@ import './HomeEvents.scss'
  
 export default function EventCarousel() {
 
-  const [isMobile, setisMobile] = useState(false)
+  const [isMobile, setisMobile] = useState(true)
 
   const changeSettings = () => { 
       if (window.innerWidth <= 960) {
