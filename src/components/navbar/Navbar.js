@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ImLeaf } from 'react-icons/im'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import { Button } from '../button/Button';
 import './Navbar.scss';

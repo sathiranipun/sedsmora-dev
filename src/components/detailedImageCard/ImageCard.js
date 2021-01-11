@@ -1,6 +1,5 @@
 import React from 'react';
-import { CgPlayButtonR } from 'react-icons/cg'
-import './ImageCard.scss'
+import './ImageCard.scss';
 
 const ImageCard = ({small, medium, large, imageTile, title, description, imageLink, imageAlt}) => {
 

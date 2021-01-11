@@ -9,6 +9,18 @@
   grid-row-gap: 50px;
 }
 
+@media screen and (max-width: 1500px) {
+  .HomeInsights {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .HomeInsights {
+    grid-template-columns: auto auto;
+  }
+}
+
 .InsightTile {
   position: relative;
   width: 90%;
