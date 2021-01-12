@@ -1,5 +1,5 @@
 import React from 'react'
-import ConnectUs from '../components/contactUs/ContactUs';
+//import ConnectUs from '../components/contactUs/ContactUs';
 import HomeAbout from '../components/HomeAbout/HomeAbout';
 import HomeEvents from '../components/HomeEvents/HomeEvents';
 import HomeInsights from '../components/HomeInsights/HomeInsights';
@@ -14,7 +14,6 @@ const Homepage = () => {
       <HomeAbout/>
       <HomeEvents/>
       <TestimonialSection/>
-      <ConnectUs/>
     </div>
   )
 }

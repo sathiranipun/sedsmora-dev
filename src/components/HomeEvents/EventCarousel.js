@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import ImageCard from "../detailedImageCard/ImageCard";
 import {CardData} from './CardData';
@@ -47,7 +48,9 @@ export default function EventCarousel() {
       { CardData.map((slide, index) => {
         return (
           <div key={index}>
-            <ImageCard {...slide} />
+            <Link to="/events/asteria">
+              <ImageCard {...slide} />
+            </Link>
           </div>
         )
       }) }
