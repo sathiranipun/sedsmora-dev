@@ -17,12 +17,14 @@ export default function EventCarousel() {
       }
   }
 
-
+  
   useEffect(() => {
+    changeSettings();
     window.addEventListener('resize', changeSettings);
     return () => {
       window.removeEventListener('resize', changeSettings);
     }
+    
   }, [])
 
   var set1 = {
@@ -48,7 +50,7 @@ export default function EventCarousel() {
       { CardData.map((slide, index) => {
         return (
           <div key={index}>
-            <Link to="/events/asteria">
+            <Link to={`/events/${slide.link}`}>
               <ImageCard {...slide} />
             </Link>
           </div>
