@@ -39,7 +39,7 @@ function Navbar() {
       <div className={scrolled || click? "navbar navbar-shadow" : "navbar"}>
         <div className="navbar-container container">
         <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-             SEDSMORA
+             SEDS Mora
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             { click? <FaTimes/> : <FaBars/> }
