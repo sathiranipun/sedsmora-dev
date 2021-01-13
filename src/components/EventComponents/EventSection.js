@@ -6,7 +6,6 @@ const EventSection = ({imageTile, longDescription, photoLinks}) => {
   
   useEffect(() => {
     Scroll.animateScroll.scrollTo(500);
-    
   }, [])
 
   return (

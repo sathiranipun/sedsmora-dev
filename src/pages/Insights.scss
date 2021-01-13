@@ -1,0 +1,22 @@
+.Insights {
+  margin-top: 110px;
+}
+
+.insight-description {
+  color: rgb(228, 226, 226);
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.insight-timeline {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .insight-timeline {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -7,6 +7,7 @@ import ConnectUs from './components/contactUs/ContactUs';
 import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion'
 import { useState } from 'react';
+import Insights from './pages/Insights';
 
 const App =() => {
 
@@ -20,6 +21,7 @@ const App =() => {
           <Switch >
             <Route path='/' exact component={Homepage} />
             <Route path='/events' component={Eventspage} />
+            <Route path='/insights' component={Insights} />
           </Switch>
         </AnimatePresence>
         <br/><br/><br/><br/><br/>
