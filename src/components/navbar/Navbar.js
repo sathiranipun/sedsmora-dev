@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import { Button } from '../button/Button';
 import './Navbar.scss';
@@ -47,24 +47,24 @@ function Navbar() {
           <div className={click? 'nav-menu active': 'nav-menu'}>
             <ul>
             <li className="nav-item">
-              <Link to="/events" className="nav-links" onClick={closeMobileMenu}>
+              <NavLink to="/events" className="nav-links" onClick={closeMobileMenu}>
                 EVENTS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to='/p' className="nav-links" onClick={closeMobileMenu}>
+              <NavLink to='/p' className="nav-links" onClick={closeMobileMenu}>
                 BLOG
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to='/insights' className="nav-links" onClick={closeMobileMenu}>
+              <NavLink to='/insights' className="nav-links" onClick={closeMobileMenu}>
                 INSIGHTS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to='/prod' className="nav-links" onClick={closeMobileMenu}>
+              <NavLink to='/prod' className="nav-links" onClick={closeMobileMenu}>
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             </ul>
             <ul>
