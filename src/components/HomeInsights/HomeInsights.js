@@ -1,7 +1,8 @@
 import React from 'react';
-import { InsightData } from './InsightData';
+import { InsightData } from '../insightTimeline/InsightData';
 import InsightTile from './InsightTile';
 import './Insight.scss'
+import { Link } from 'react-router-dom';
 
 const HomeInsights = () => {
 
@@ -12,10 +13,17 @@ const HomeInsights = () => {
     <div className="about-title" style={{marginTop:"40px"}}>insights</div>
     <div className="HomeInsights">
       { InsightData.map((tile, index) => {
+        console.log(index);
         return (
-          <div key={index}>
-            <InsightTile {...tile} bgColour={BGCOLOR[index%4]}  />
-          </div>
+            index < 4 ? (
+              <Link to="/insights" className="insight-link">
+                <div key={index}>
+                  <InsightTile {...tile} bgColour={BGCOLOR[index%4]}  />
+                </div>
+              </Link>
+            ) : (
+              null
+            )
         )
       }) }
     </div>

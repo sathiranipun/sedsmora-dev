@@ -3,9 +3,12 @@
   padding-bottom: 40px;
   background: #444;
   margin-top: 60px;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .carousel {
+  
   .slick-dots {
     li {
       button {
@@ -13,5 +16,13 @@
         
       }
     }
+  }
+}
+
+.slick-slider {
+  width: 100vw;
+
+  .slick-arrow {
+    right: 30px;
   }
 }

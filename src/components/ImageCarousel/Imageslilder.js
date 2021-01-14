@@ -27,6 +27,7 @@ const Imageslilder = ({viewHeight, TimeInterval}) => {
       nextSlide();
       setAutoRun(!autoRun);
     }, TimeInterval);
+    return null
   }, [autoRun]) 
 
   if (!Array.isArray(SliderData) || length <= 0) {

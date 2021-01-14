@@ -4,12 +4,15 @@
 }
 
 .TestimonialTileSection {
-  width: 98%;
+  
+  width: 97vw;
   margin-top: 40px;
   padding-top: 50px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   display: grid;
   grid-template-columns:auto auto auto auto;
-  padding: 10px;
+  padding: 5px;
   grid-row-gap: 50px;
 }
 
@@ -21,7 +24,7 @@
 
 @media screen and (max-width: 991px) {
   .TestimonialTileSection {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 }
 //////////////////////////////////////////////////@at-root
@@ -42,8 +45,7 @@
   border-radius: 15px;
   transition: 0.5s;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.418), 0 6px 20px 0 rgba(0, 0, 0, 0.472);
- 
-  }
+}
 
 .TestimonialTile:hover {
   box-shadow: 0 20px 20px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
@@ -77,4 +79,24 @@
   text-align: center;
   font-size: 1.2em;
   color: rgb(238, 238, 238);
+}
+
+@media only screen and (max-width: 991px) {
+  .TestimonialTile {
+    width: 80%;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .avatar-image-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .TestimonialTileSection {
+    width: 92%;
+    
+  }
 }

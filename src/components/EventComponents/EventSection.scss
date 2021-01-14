@@ -23,12 +23,6 @@
   grid-template-columns:auto auto auto;
 }
 
-@media screen and (max-width: 991px) {
-  .photo-grid {
-    grid-template-columns: auto;
-  }
-}
-
 .evnt-img-container {
   width: 100%;
   overflow: hidden;
@@ -38,4 +32,21 @@
 .evnt-img {
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .photo-grid {
+    grid-template-columns: auto;
+  }
+  .EventSection {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+  }
+
+  .evnt-img-container {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+  }
 }
