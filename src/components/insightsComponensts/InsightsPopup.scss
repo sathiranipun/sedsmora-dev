@@ -1,5 +1,5 @@
 .insight-popup {
-  position: fixed;
+  position: absolute;
   backdrop-filter: blur(4px);
   top: 0;
   left: 0;
@@ -7,22 +7,22 @@
   transition: 0.5;
   opacity: 0;
   width: 100vw;
-  height: 100vw;
   background-color: rgba(0, 0, 0, 0.698);
-  
+  flex-flow: column;
+  height: 100%;
 }
 
 .insight-popup.show {
-  display: block;
+  display: flex;
   opacity: 1;
 }
 
 .insight-popup-container {
   background-color: #c4c4c4;
-  position: relative;
+  position: fixed;
   width: 700px;
   height: max-content;
-  top: 500px;
+  top: auto;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
@@ -76,5 +76,17 @@
 @media only screen and (max-width: 991px) {
   .insight-popup-container {
     width: 90vw;
+  }
+
+  .insight-popup-image-container {
+    height: 200px;
+  }
+
+  .popup-date { 
+    font-size: 1em;
+  }
+
+  .insight-popup-container {
+    top: 400px;
   }
 }
