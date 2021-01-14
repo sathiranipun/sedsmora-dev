@@ -10,8 +10,10 @@
   margin-left: 0 !important;
   margin-right: 0 !important;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 5px;
+  grid-template-columns:auto auto auto auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
   grid-row-gap: 50px;
 }
 

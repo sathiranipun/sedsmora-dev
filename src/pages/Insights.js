@@ -33,15 +33,19 @@ const Insights = () => {
 
   return (
     <motion.div className="Insights" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
-      <div className="about-title">Insights</div>
-      <div className="insight-description">Lorem Ipsum is simply dummy text of 
-      the printing and typesetting industry. Lorem 
-      Ipsum has been the industry's standard dummy text</div>
-      <div className="insight-timeline">
-        { InsightData.map((item, index) => {
-          return <InsightTimelineItem {...item} bgColour={BGCOLOR[index%4]} key={index} />
-        }) }
-      </div>
+      
+        <div className="insight-blur-layer">
+          <div className="about-title">Insights</div>
+          <div className="insight-description">Lorem Ipsum is simply dummy text of 
+          the printing and typesetting industry. Lorem 
+          Ipsum has been the industry's standard dummy text</div>
+          <div className="insight-timeline">
+            { InsightData.map((item, index) => {
+              return <InsightTimelineItem {...item} bgColour={BGCOLOR[index%4]} key={index} />
+            }) }
+          </div>
+        </div>
+      
     </motion.div>
   )
 }
