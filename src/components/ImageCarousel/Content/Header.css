@@ -34,12 +34,34 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 991) {
+@media only screen and (max-width: 991px) {
   .Header {
     padding: 5px;
+    width: 90vw;
   }
 
   .header-title {
-    font-size: 1em;
+    margin-top: 15px;
+    font-size: 3em;
+  }
+
+  .header-description {
+    font-size: 1.1em;
+  }
+
+  .header-button-section {
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-row-gap: 10px;
+    position: relative;
+    left: 0;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-button-section {
+    left: 0%;
+    transform: translate(0%, 0%);
   }
 }

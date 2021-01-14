@@ -30,23 +30,35 @@ export default function EventCarousel() {
   var set1 = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1200,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    easing: 'ease',
+    pauseOnHover: true,
+    swipeToSlide: true,
+    centerMode: true,
   }
 
   var set2 = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnFocus: true,
+    swipeToSlide: true,
+    centerMode: true,
   }
   var settings = isMobile? set1: set2;
 
   return (
-    <div style={{width:"98%"}}>
-      <Slider {...settings}>
+    <div style={{width:"100%"}}>
+      <Slider {...settings} >
       { CardData.map((slide, index) => {
         return (
           <div key={index}>
