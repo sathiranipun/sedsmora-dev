@@ -5,7 +5,8 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '15',
-    icon: 'falling-star' //falling-star, rocket, astronaut, clock
+    icon: 'falling-star', //falling-star, rocket, astronaut, clock,
+    image: './images/carouselimages/carousel1.jpg'
   },
 
   {
@@ -14,7 +15,8 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '10',
-    icon: 'rocket' //falling-star, rocket, astronaut, clock
+    icon: 'rocket', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel2.jpg'
   },
 
   {
@@ -23,7 +25,8 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '15',
-    icon: 'falling-star' //falling-star, rocket, astronaut, clock
+    icon: 'falling-star', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel3.jpg'
   },
 
   {
@@ -32,7 +35,8 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '15',
-    icon: 'astronaut' //falling-star, rocket, astronaut, clock
+    icon: 'astronaut', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel4.jpg'
   },
 
   {
@@ -41,7 +45,8 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '15',
-    icon: 'clock' //falling-star, rocket, astronaut, clock
+    icon: 'clock', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel4.jpg'
   },
 
   {
@@ -50,6 +55,7 @@ export const InsightData = [
     date: 'Jan 15, 2021',
     month: 'jan',
     date1: '15',
-    icon: 'rocket' //falling-star, rocket, astronaut, clock
+    icon: 'rocket', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel5.jpg'
   },
 ]
