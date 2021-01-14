@@ -44,7 +44,7 @@ const AboutUs = () => {
           exploration and development of space.</div>
         
         <div className="about-sub-title">What is SEDS  MORA</div>
-        <img src="./images/about/FB_Cover-2 1.jpg" alt="fb cover" className="about-page-large-img"/>
+        <img src="./images/about/FB_Cover-2 1.jpg" alt="fb cover" className="about-page-large-img effect5"/>
         <div className="about-page-description">
           It's through curiosity and looking at opportunities in new ways that we've always mapped our path. Hence we, 
           SEDS Mora bring enthusiasts with quizzical minds from every corner of the country together and build a platform 

@@ -87,14 +87,18 @@
   padding-left: 5em;
   display: flex;
   transition: 0.5s;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   ul {
     padding-left: 0;
   }
 }
 
-
+.nav-item.right-item {
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+}
 
 @media only screen and (max-width: 991px) {
   .menu-icon {

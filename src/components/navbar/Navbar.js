@@ -68,7 +68,7 @@ function Navbar() {
             </li>
             </ul>
             <ul>
-            <li className="nav-item nav-btn">
+            <li className="nav-item nav-btn right-item">
               { button? (
                 <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
                   <Button buttonStyle='btn--outline'>
