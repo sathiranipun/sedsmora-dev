@@ -8,7 +8,7 @@ const ImageCard = ({small, medium, large, imageTile, title, description, imageLi
   return (
     <div className={`ImageCard ${size}`}>
       <div className="image-section">
-        <img className="image" src={imageLink} alt={imageAlt}/>
+        <img className="image" src={`${window.location.origin}${imageLink}`} alt={imageAlt}/>
         <div className="image-filter"></div>
         <div className="image-title">{ imageTile }</div>
       </div>

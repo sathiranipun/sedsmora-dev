@@ -43,6 +43,7 @@
   float: left;
   font-size: 1.8em;
   font-weight: 600;
+  min-width: max-content;
 }
 
 .menu-icon {
@@ -60,7 +61,7 @@
 .nav-links {
   color: #fff;
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.4s;
   height: 100%;
   padding-top: 25px;
   
@@ -68,8 +69,16 @@
 
 .nav-links:hover {
   font-size: 1.0em;
+  padding-bottom: 5px;
+  border-bottom: solid 2px rgb(2, 197, 155);
+  transition: 0.4s;
+}
+
+.nav-links.active {
+  color: rgb(2, 197, 155);
+  font-size: 1.0em;
   padding-bottom: 25px;
-  border-bottom: solid 3px #fff;
+  border-bottom: solid 3px rgb(2, 197, 155);
 }
 
 .nav-menu {

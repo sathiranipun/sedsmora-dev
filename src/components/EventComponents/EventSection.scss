@@ -1,0 +1,41 @@
+.EventSection {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.event-section-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.event-description {
+  font-size: 1.1em;
+  color: rgb(221, 217, 217);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns:auto auto auto;
+}
+
+@media screen and (max-width: 991px) {
+  .photo-grid {
+    grid-template-columns: auto;
+  }
+}
+
+.evnt-img-container {
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+
+.evnt-img {
+  height: 100%;
+  object-fit: cover;
+}

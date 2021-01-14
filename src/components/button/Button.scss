@@ -1,4 +1,4 @@
-$--primaty: #fff;
+$--primaty:rgb(2, 197, 187);
 
 .btn {
   padding: 8px 20px;
@@ -70,7 +70,7 @@ $--primaty: #fff;
 }
 
 .transparent:hover {
-  background: #fff;
+  background: $--primaty;
   color: #242424;
 }
 
@@ -104,7 +104,7 @@ $--primaty: #fff;
 }
 
 .primary:hover {
-  background-color: #fff;
+  background-color: $--primaty;
   color: #242424;
 }
 

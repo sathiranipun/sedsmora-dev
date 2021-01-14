@@ -1,0 +1,82 @@
+.Insight {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns:10% 10% 80%;
+}
+
+.insight-date {
+  font-size: 1.1em;
+  padding-top: 8px;
+  color: rgb(228, 228, 228);
+}
+
+.insight-line-section {
+  display: block;
+  overflow: hidden;
+}
+
+.insight-icon-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 23px;
+  background-color: #444;
+  font-size: 23px;
+  height: 23px;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px #000000;
+  background-color: rgb(179, 178, 178);
+}
+
+.insight-line {
+  background-color: rgb(204, 203, 203);
+  height: 100%;
+  width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.insight-content-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 12px;
+  box-shadow: 0px 5px 5px #000000;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transition: 0.5s;
+}
+
+.insight-content-section:hover {
+  box-shadow: 0px 10px 30px #000000;
+}
+
+.insight-content-section.bg-purple {
+  background-color: #9F7AEA;
+}
+
+.insight-content-section.bg-blue {
+  background-color: #667EEA;
+}
+
+.insight-content-section.bg-pink {
+  background-color: #ED64A6;
+}
+
+.insight-content-section.bg-green {
+  background-color: #3ABAB4;
+}
+
+.insight-content-title {
+  font-size: 1.3em;
+  padding-bottom: 3px;
+  color: rgb(0, 0, 0);
+}
+
+.insight-content-desc {
+  font-size: 1.1em;
+  color: rgb(37, 37, 37);
+}

@@ -1,10 +1,4 @@
 .Eventspage {
   margin-top: 110px;
-  animation-name: pageslide;
-  animation-duration: 1s;
-}
-
-@keyframes pageslide {
-  0% {transform: translateX(100%);}
-  100% {transform: translateX(0%);}
+  
 }
