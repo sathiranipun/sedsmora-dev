@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion'
 import { useState } from 'react';
 import Insights from './pages/Insights';
+import AboutUs from './pages/AboutUs';
 
 const App =() => {
 
@@ -22,9 +23,10 @@ const App =() => {
             <Route path='/' exact component={Homepage} />
             <Route path='/events' component={Eventspage} />
             <Route path='/insights' component={Insights} />
+            <Route path='/about' component={AboutUs} />
           </Switch>
         </AnimatePresence>
-        <br/><br/><br/><br/><br/>
+        <br/>
         <ConnectUs/>
      
     </div>

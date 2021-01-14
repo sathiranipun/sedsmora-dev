@@ -8,22 +8,22 @@
   opacity: 0;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.698);
-  flex-flow: column;
-  height: 100%;
 }
 
 .insight-popup.show {
   display: flex;
   opacity: 1;
+  flex-flow: column;
+  height: 100%;
 }
 
 .insight-popup-container {
   background-color: #c4c4c4;
-  position: fixed;
+  position: sticky;
+  top: 500px;
+  left: 50%;
   width: 700px;
   height: max-content;
-  top: auto;
-  left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
   border-radius: 15px;
@@ -73,9 +73,13 @@
   font-size: 1.1em;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 700px) {
   .insight-popup-container {
+    position: sticky;
+    top: 0px;
+    left: 18px;
     width: 90vw;
+    transform: translate(-0%, -60%);
   }
 
   .insight-popup-image-container {
@@ -88,5 +92,10 @@
 
   .insight-popup-container {
     top: 400px;
+  }
+
+  .insight-description-section {
+    padding: 20px;
+    font-size: 1em;
   }
 }

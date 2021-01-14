@@ -1,0 +1,51 @@
+.ObjectiveList {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns:10% 90%;
+  
+}
+
+.objectives-line-section {
+  display: block;
+  overflow: hidden;
+}
+
+.objectives-icon-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 23px;
+  background-color: rgb(98, 98, 98);
+  font-size: 23px;
+  height: 23px;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px #000000;
+  background-color: rgb(179, 178, 178);
+}
+
+.objectives-line {
+  background-color: rgb(204, 203, 203);
+  height: 100%;
+  width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.objectives-content-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 10px #000000;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transition: 0.5s;
+}
+
+
+.objectives-content-desc {
+  font-size: 1.1em;
+  color: rgb(209, 208, 208);
+}

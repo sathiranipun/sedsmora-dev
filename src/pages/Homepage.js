@@ -5,7 +5,8 @@ import HomeEvents from '../components/HomeEvents/HomeEvents';
 import HomeInsights from '../components/HomeInsights/HomeInsights';
 import Imageslilder from '../components/ImageCarousel/Imageslilder';
 import TestimonialSection from '../components/testimonial/TestimonialSection';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+
 
 const Homepage = () => {
 
@@ -34,16 +35,18 @@ const Homepage = () => {
 
 
   return (
-    <motion.div 
-    initial="initial" animate="in" 
-    exit="out" variants={pageVariants} 
-    transition={pageTransitions}>
-      <Imageslilder viewHeight={"screen-height"} TimeInterval={4000}/>
-      <HomeInsights/>
-      <HomeAbout/>
-      <HomeEvents/>
-      <TestimonialSection/>
-    </motion.div>
+    
+        <motion.div className="HomePage" 
+        initial="initial" animate="in" 
+        exit="out" variants={pageVariants} 
+        transition={pageTransitions}>
+          <Imageslilder viewHeight={"screen-height"} TimeInterval={4000}/>
+          <HomeInsights/>
+          <HomeAbout/>
+          <HomeEvents/>
+          <TestimonialSection/>
+        </motion.div>
+      
   )
 }
 

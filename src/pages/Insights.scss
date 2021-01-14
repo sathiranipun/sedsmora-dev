@@ -1,9 +1,16 @@
 .Insights {
-  padding-top: 130px;
-  background-color: #444;
-  padding-bottom: 80px;
+  //background-color: #444;
+  background-image: url('../background1.jpg');
+  margin-bottom: 80px;
   width: 100vw;
   
+}
+
+.insight-blur-layer {
+  padding-top: 200px;
+  backdrop-filter: blur(30px);
+  background-color: #000000b0;
+  padding-bottom: 30px;
 }
 
 .insight-description {
