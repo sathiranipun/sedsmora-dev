@@ -8,8 +8,8 @@ import './HomeEvents.scss'
 const HomeEvents = () => {
   return (
     <div className="HomeEvents">
-      <div className="about-title">Events</div>
-      <div className="about-description">
+      <div className="about-title" data-aos="fade-right">Events</div>
+      <div className="about-description" data-aos="fade-up">
         With aim of offering you the best knowledge and precious experience 
         to explore more about the puzzling universe SEDS Mora comes up 
         numerous events throughout the year including webinar and discussion 

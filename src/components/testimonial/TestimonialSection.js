@@ -10,7 +10,7 @@ const TestimonialSection = () => {
     <div className="TestimonialTileSection">
       { TestimonialData.map((tile, index) => {
         return (
-          <div className="tiles" key= {index}>
+          <div className="tiles" key= {index} data-aos="fade-up" data-aos-delay={`${(index + 1)*150}`}>
             <TestimonialTile {...tile}/>
           </div>
         )

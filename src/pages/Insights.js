@@ -41,7 +41,7 @@ const Insights = () => {
           Ipsum has been the industry's standard dummy text</div>
           <div className="insight-timeline">
             { InsightData.map((item, index) => {
-              return <InsightTimelineItem {...item} bgColour={BGCOLOR[index%4]} key={index} />
+              return <InsightTimelineItem {...item} bgColour={BGCOLOR[index%4]} key={index}/>
             }) }
           </div>
         </div>

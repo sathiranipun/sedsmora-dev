@@ -2,7 +2,7 @@ import React from 'react';
 
 const BoardMemberTile = ({name, designation, avatarImg}) => {
   return (
-    <div className="BoardMemberTile">
+    <div className="BoardMemberTile" data-aos="fade-up">
       <div className="member-border-box"></div>
       <div className="avatar-img-container">
         <img src={avatarImg} alt="board member" className="member-image"/>

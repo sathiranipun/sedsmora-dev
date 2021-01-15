@@ -35,17 +35,17 @@ const AboutUs = () => {
   return (
     <motion.div className="AboutUs" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
       <div className="blur-layer">
-        <div className="about-main-title about-title">About Us</div>
-        <div className="about-sub-title">What is SEDS</div>
-        <div className="about-page-description">
+        <div className="about-main-title about-title" >About Us</div>
+        <div className="about-sub-title" data-aos="fade-left">What is SEDS</div>
+        <div className="about-page-description" data-aos="fade-up">
           Students for the Exploration and Development of 
           Space or  "SEDS" is an independent, student-based 
           international organization which promotes the 
           exploration and development of space.</div>
         
-        <div className="about-sub-title">What is SEDS  MORA</div>
+        <div className="about-sub-title" data-aos="fade-right">What is SEDS  MORA</div>
         <img src="./images/about/FB_Cover-2 1.jpg" alt="fb cover" className="about-page-large-img effect5"/>
-        <div className="about-page-description">
+        <div className="about-page-description" data-aos="fade-up">
           It's through curiosity and looking at opportunities in new ways that we've always mapped our path. Hence we, 
           SEDS Mora bring enthusiasts with quizzical minds from every corner of the country together and build a platform 
           for their curiosity about space, space technology, astronomy as well as cosmology.SEDS Mora guides you to dive 
@@ -59,7 +59,7 @@ const AboutUs = () => {
           Engineering, Information Technology, Architecture and Business. 
         </div>
 
-        <div className="about-sub-title">Our Objectives</div>
+        <div className="about-sub-title" data-aos="fade-left">Our Objectives</div>
         <div className="objective-list">
           { ObjectiveData.map((item, index) => {
             return(
