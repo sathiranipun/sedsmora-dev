@@ -28,7 +28,7 @@ const InsightTimelineItem = ({title, description, date, icon, bgColour, image, d
   }
 
   return (
-    <div className="Insight" onClick={() => setpopup(!popup)} data-aos="fade-up" >
+    <div className="Insight" onClick={() => setpopup(!popup)} >
       <div className="insight-date">{ date }</div>
       <div className="insight-line-section">
         <div className="insight-icon-container" >
