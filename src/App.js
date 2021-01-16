@@ -8,7 +8,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react';
 import Insights from './pages/Insights';
-import AboutUs from './pages/AboutUs';
+import AboutUs from './pages/AboutUs'; 
 import Aos from 'aos';
 import "aos/dist/aos.css"
 
