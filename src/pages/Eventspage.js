@@ -36,7 +36,7 @@ const Eventspage = () => {
 
   return (
     <motion.div className="Eventspage Insights" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
-      <div className="insight-blur-layer  events">
+      <div className="insight-blur-layer">
         <HomeEvents/>
         { CardData.map((currEvent, index) => {
           return(

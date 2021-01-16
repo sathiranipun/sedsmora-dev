@@ -24,7 +24,7 @@ export default function EventCarousel() {
     return () => {
       window.removeEventListener('resize', changeSettings);
     }
-    
+  
   }, [])
 
   var set1 = {
@@ -32,7 +32,7 @@ export default function EventCarousel() {
     infinite: true,
     speed: 2000,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 3000,
     easing: 'ease',
@@ -46,7 +46,7 @@ export default function EventCarousel() {
     infinite: true,
     speed: 2000,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     adaptiveHeight: true,
     autoplay: true,
     autoplaySpeed: 3000,
