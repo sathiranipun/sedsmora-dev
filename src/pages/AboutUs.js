@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ObjectiveData } from '../components/aboutus/ObjectivesData';
 import ObjectiveList from '../components/aboutus/ObjectiveList';
 import { ExTeam } from '../components/aboutus/OurTeamData';
+import { LwTeam } from '../components/aboutus/OurTeamData';
 import BoardMemberTile from '../components/aboutus/BoardMemberTile';
 
 const AboutUs = () => {
@@ -83,7 +84,7 @@ const AboutUs = () => {
 
         <div className="about-sub-title small">Committee 20/21</div>
         <div className="board-member-list">
-          {ExTeam.map((member, index) => {
+          {LwTeam.map((member, index) => {
             return(
               <BoardMemberTile {...member} key={index}/>
             )

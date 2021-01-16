@@ -6,7 +6,7 @@
 .TestimonialTileSection {
   width: 97vw;
   margin-top: 40px;
-  padding-top: 50px;
+  padding-top: 30px;
   margin-left: 0 !important;
   margin-right: 0 !important;
   display: grid;
@@ -45,7 +45,8 @@
   padding-right: 20px;
   border-radius: 15px;
   transition: 0.5s;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.418), 0 6px 20px 0 rgba(0, 0, 0, 0.472);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.418),
+    0 6px 20px 0 rgba(0, 0, 0, 0.472);
 }
 
 .TestimonialTile:hover {
@@ -98,6 +99,5 @@
 
   .TestimonialTileSection {
     width: 92%;
-    
   }
 }
