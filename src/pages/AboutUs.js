@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ObjectiveData } from '../components/aboutus/ObjectivesData';
 import ObjectiveList from '../components/aboutus/ObjectiveList';
 import { ExTeam } from '../components/aboutus/OurTeamData';
+import { LwTeam } from '../components/aboutus/OurTeamData';
 import BoardMemberTile from '../components/aboutus/BoardMemberTile';
 
 const AboutUs = () => {
@@ -44,7 +45,7 @@ const AboutUs = () => {
           exploration and development of space.</div>
         
         <div className="about-sub-title">What is SEDS  MORA</div>
-        <img src="./images/about/FB_Cover-2 1.jpg" alt="fb cover" className="about-page-large-img"/>
+        <img src="./images/about/FB_Cover-2 1.jpg" alt="fb cover" className="about-page-large-img effect5"/>
         <div className="about-page-description">
           It's through curiosity and looking at opportunities in new ways that we've always mapped our path. Hence we, 
           SEDS Mora bring enthusiasts with quizzical minds from every corner of the country together and build a platform 
@@ -83,7 +84,7 @@ const AboutUs = () => {
 
         <div className="about-sub-title small">Committee 20/21</div>
         <div className="board-member-list">
-          {ExTeam.map((member, index) => {
+          {LwTeam.map((member, index) => {
             return(
               <BoardMemberTile {...member} key={index}/>
             )

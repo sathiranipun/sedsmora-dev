@@ -66,45 +66,73 @@ export const ExTeam = [
 
 export const LwTeam = [
   { 
-    avatarImg: './images/testimonial/test1.jpg',
+    avatarImg: './images/testimonial/ishara.jpg',
     imgAlt: 'avatar',
-    designation: 'President',
-    name: 'Lahiru Udara'
+    designation: 'E-FAC Coorinator',
+    name: 'Ishara Sandanuwan'
   },
 
   { 
-    avatarImg: './images/testimonial/test2.jpeg',
+    avatarImg: './images/testimonial/dileepa.jpg',
     imgAlt: 'avatar',
-    designation: 'Secretary',
-    name: 'Dilanjanee Udeshika'
+    designation: 'IT-FAC Coorinator',
+    name: 'Dileepa Lakshan'
   },
 
   { 
-    avatarImg: './images/testimonial/test3.jpg',
+    avatarImg: './images/testimonial/sugith.jpg',
     imgAlt: 'avatar',
-    designation: 'Vice President',
-    name: 'Madura Cooray'
+    designation: 'ARCHI-FAC Coorinator',
+    name: 'Sugith Eranda'
   },
 
   { 
-    avatarImg: './images/testimonial/test4.jpeg',
+    avatarImg: './images/testimonial/vinuri.jpg',
     imgAlt: 'avatar',
-    designation: 'Vice President',
-    name: 'Apsara Kularathne'
+    designation: 'Committee Member',
+    name: 'Vinuri Ambegoda'
   },
 
   { 
-    avatarImg: './images/testimonial/test4.jpeg',
+    avatarImg: './images/testimonial/chamath.jpg',
     imgAlt: 'avatar',
-    designation: 'Treasurer',
-    name: 'Kavindu Nadeeshana'
+    designation: 'Committee Member',
+    name: 'Chamath Shamal'
   },
 
   { 
-    avatarImg: './images/testimonial/test1.jpeg',
+    avatarImg: './images/testimonial/anurisha.jpg',
     imgAlt: 'avatar',
-    designation: 'Editor',
-    name: 'Sathira Nipun'
+    designation: 'Committee Member',
+    name: 'Anurisha Dunuwila'
+  },
+
+  { 
+    avatarImg: './images/testimonial/kalindu.jpg',
+    imgAlt: 'avatar',
+    designation: 'Committee Member',
+    name: 'Kalindu Prabash'
+  },
+
+  { 
+    avatarImg: './images/testimonial/sumudu.jpg',
+    imgAlt: 'avatar',
+    designation: 'Committee Member',
+    name: 'Sumudu Peiris'
+  },
+
+  { 
+    avatarImg: './images/testimonial/nuwan.jpg',
+    imgAlt: 'avatar',
+    designation: 'Committee Member',
+    name: 'Nuwan Bandara'
+  },
+
+  { 
+    avatarImg: './images/testimonial/malithi.jpg',
+    imgAlt: 'avatar',
+    designation: 'Committee Member',
+    name: 'Malithi Liyanage'
   },
 ]
 
