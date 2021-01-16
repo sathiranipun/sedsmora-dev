@@ -6,7 +6,7 @@ import { InsightData } from './InsightData';
 import './InsightTimeline.scss'
 import InsightsPopup from '../insightsComponensts/InsightsPopup';
 
-const InsightTimelineItem = ({title, description, date, icon, bgColour, image}) => {
+const InsightTimelineItem = ({title, description, date, icon, bgColour, image, delay}) => {
 
   const [popup, setpopup] = useState(false);
   let className = popup? 'insight-popup show': 'insight-popup';
@@ -28,7 +28,7 @@ const InsightTimelineItem = ({title, description, date, icon, bgColour, image}) 
   }
 
   return (
-    <div className="Insight" onClick={() => setpopup(!popup)}>
+    <div className="Insight" onClick={() => setpopup(!popup)} >
       <div className="insight-date">{ date }</div>
       <div className="insight-line-section">
         <div className="insight-icon-container" >

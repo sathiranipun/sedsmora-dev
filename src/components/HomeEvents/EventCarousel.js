@@ -30,7 +30,7 @@ export default function EventCarousel() {
   var set1 = {
     dots: true,
     infinite: true,
-    speed: 1200,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
@@ -44,7 +44,7 @@ export default function EventCarousel() {
   var set2 = {
     dots: true,
     infinite: true,
-    speed: 800,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,

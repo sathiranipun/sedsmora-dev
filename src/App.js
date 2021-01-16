@@ -6,13 +6,20 @@ import Eventspage from './pages/Eventspage';
 import ConnectUs from './components/contactUs/ContactUs';
 import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Insights from './pages/Insights';
 import AboutUs from './pages/AboutUs';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const App =() => {
 
-  let location = useLocation();
+  useEffect(() => {
+    Aos.init({
+      easing: 'ease-in-sine',
+    });
+    }, []);
+
   return (
     
       <div >

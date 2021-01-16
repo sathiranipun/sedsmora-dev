@@ -5,9 +5,9 @@ const HomeAbout = () => {
 
   return (
     <div className="HomeAbout">
-      <div className="about-title" >Who are we</div>
+      <div className="about-title" data-aos="fade-left">Who are we</div>
       
-      <div className="about-description" >
+      <div className="about-description" data-aos="fade-up">
         It's through curiosity and looking at opportunities in new ways that we've 
         always mapped our path. Hence we, SEDS Mora bring enthusiasts with quizzical 
         minds from every corner of the country together and build a platform for their 

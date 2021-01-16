@@ -6,20 +6,18 @@ const Header = () => {
 
   return (
     <div className="Header" >
-      <div className="header-title">Wilderness within reach</div>
+      {/* <div className="header-title">Wilderness within reach</div> */}
       <div className="header-description">
-        "It is not so much for its beauty that the forest makes a claim upon men’s hearts, 
-        as for that subtle something, that quality of air that emanation from old trees, 
-        that so wonderfully changes and renews a weary spirit." 
-        <br/> —Robert Louis Stevenson</div>
-      <div className="header-button-section">
+        The strongest affection and utmost zeal should, I think, promote the studies concerned with the most beautiful objects. <br/> This is the discipline that deals with the universe's divine revolutions, the stars' motions, sizes, distances, risings and settings . . . for what is more beautiful than heaven?" 
+        <br/><br/> —Nicolaus Copernicus, Astronomer</div>
+      {/* <div className="header-button-section">
         <Button buttonStyle='btn--outline' buttonSize="btn--wide">
           JOIN US
         </Button>
         <Button buttonStyle='btn--outline' buttonSize="btn--wide" buttonColor='grey'>
           OUR SERVICE
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }

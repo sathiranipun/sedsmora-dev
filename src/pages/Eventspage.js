@@ -35,15 +35,17 @@ const Eventspage = () => {
   }
 
   return (
-    <motion.div className="Eventspage" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
-      <HomeEvents/>
-      { CardData.map((currEvent, index) => {
-        return(
-          <Route key={index} path={`${url}/${currEvent.link}`}>
-            <EventSection {...currEvent} />
-          </Route>
-        )
-      }) }
+    <motion.div className="Eventspage Insights" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
+      <div className="insight-blur-layer  events">
+        <HomeEvents/>
+        { CardData.map((currEvent, index) => {
+          return(
+            <Route key={index} path={`${url}/${currEvent.link}`}>
+              <EventSection {...currEvent} />
+            </Route>
+          )
+        }) }
+        </div>
     </motion.div>
   )
 }

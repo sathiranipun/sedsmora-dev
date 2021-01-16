@@ -1,36 +1,36 @@
 export const TestimonialData = [
   { 
-    avatarImg: './images/testimonial/test1.jpeg',
+    avatarImg: './images/testimonial/ravindu.jpg',
     imgAlt: 'avatar',
-    description: 'Our online ordering has increased about 4x in the past 3–4 years and ChowNow has made it easier and more efficient to get orders through. It fits right into the operational flow.',
-    name: 'Nate Pollak, Co–founder'
+    description: 'Asteria night camp organized by SEDS Mora was fun, intellectual and interesting. We had an amazing time with fellow members while learning about space.',
+    name: 'Ravindu Nagasinghe'
   },
 
   { 
-    avatarImg: './images/testimonial/test2.jpeg',
+    avatarImg: './images/testimonial/dulaj.jpg',
     imgAlt: 'avatar',
-    description: 'ChowNow creates a dialogue between our restaurant and the guest.',
-    name: 'Nate Pollak, Co–founder'
+    description: 'The sessions to share the knowledge really demonstrated the value of sharing alternative perspectives and challenging the status quo. SEDS Mora increased the likelihood that we satisfy and delight towards astronomy.',
+    name: 'Dulaj Kavinda'
   },
 
   { 
     avatarImg: './images/testimonial/test3.jpg',
     imgAlt: 'avatar',
-    description: 'We’re a really busy restaurant, and ChowNow gives our customers a really easy way to order, pay, and pick up their food so they can beat the line and beat that lunch rush.',
-    name: 'Nate Pollak, Co–founder'
+    description: 'I attended to the night camp which was organized by SEDS MORA in 2019. Actually it became a valuable opportunity to improve my astronomy knowledge',
+    name: 'Nipun Piyumantha'
   },
 
   { 
-    avatarImg: './images/testimonial/test4.jpeg',
+    avatarImg: './images/testimonial/sumudu2.jpg',
     imgAlt: 'avatar',
-    description: 'With ChowNow it’s quicker with the customer, the customer is more ensured of getting exactly what they ordered, and I’m all for the efficiency.',
-    name: 'Nate Pollak, Co–founder'
+    description: 'ASTERIA was really nice. We really enjoyed it and learned a lot. It was well organized',
+    name: 'Sumudu Adikaram'
   },
 
-  { 
-    avatarImg: './images/testimonial/test5.jpeg',
-    imgAlt: 'avatar',
-    description: 'We’ve increased our sales from 20–25% since we’ve implemented ChowNow and would never look back.',
-    name: 'Nate Pollak, Co–founder'
-  },
+  // { 
+  //   avatarImg: './images/testimonial/test5.jpeg',
+  //   imgAlt: 'avatar',
+  //   description: 'We’ve increased our sales from 20–25% since we’ve implemented ChowNow and would never look back.',
+  //   name: 'Nate Pollak, Co–founder'
+  // },
 ]

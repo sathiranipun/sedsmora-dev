@@ -5,7 +5,7 @@ import './aboutus.scss';
 const ObjectiveList = ({description}) => {
 
   return (
-    <div className="ObjectiveList" >
+    <div className="ObjectiveList" data-aos="fade-up">
       <div className="objectives-line-section">
         <div className="objectives-icon-container" >
           <GoRocket/>
