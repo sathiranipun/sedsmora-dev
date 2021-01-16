@@ -4,7 +4,7 @@ export const CardData = [
     medium: true,
     large: false,
     imageTile: 'ExploreX',
-    link:'asteria',
+    link:'explorex',
     title: "ExploreX",
     description: `The initial step of the astronomical session series "ExploreX"  was successfully completed on 03rd of April 2019, ......`,
     longDescription: `The initial step of the astronomical session series "ExploreX"  was successfully completed on 03rd of April 2019, in collaboration with Arthur C. Clarke Institute. Through this session, students were given the opportunity to witness the largest telescope in Sri Lanka and also they were lucky enough to observe the sun using a telescope. SEDS Mora would like to extend a huge thanks to everyone out there who assisted us to make this event a success!`,
@@ -55,6 +55,42 @@ export const CardData = [
        "/images/events/aquaro/AQ18.jpg",
 
     ]
+  },
+
+  {
+    small: false,
+    medium: true,
+    large: false,
+    imageTile: 'Asteria',
+    link: 'asteria',
+    title: "Asteria",
+    description: "Most amazing outbound stargazing night camp for the year 2019 was flourishingly . . .",
+    longDescription: `Most amazing outbound stargazing night camp for the year 2019 was flourishingly completed.Extremely grateful for everyone who stayed behind us to make this event accomplished  and also a special thanks go to Institute of Astronomy Sri Lanka for being the Gold Sponsor and Instrument provider for the event, Bimsara Senevirathna for providing the sound system, Ayesh Chathuradha for photography.`,
+    imageLink: "/images/events/asteria/AS01.jpg",
+    imgAlt: 'plant pot',
+    photoLinks: [
+      '/images/events/asteria/AS01.jpg',
+      '/images/events/asteria/AS02.jpg',
+      '/images/events/asteria/AS03.jpg',
+      '/images/events/asteria/AS04.jpg',
+      '/images/events/asteria/AS05.jpg',
+      '/images/events/asteria/AS06.jpg',
+      '/images/events/asteria/AS07.jpg',
+      '/images/events/asteria/AS08.jpg',
+      '/images/events/asteria/AS09.jpg',
+      '/images/events/asteria/AS10.jpg',
+      '/images/events/asteria/AS11.jpg',
+      '/images/events/asteria/AS12.jpg',
+      '/images/events/asteria/AS13.jpg',
+      '/images/events/asteria/AS14.jpg',
+      '/images/events/asteria/AS15.jpg',
+      '/images/events/asteria/AS16.jpg',
+      '/images/events/asteria/AS17.jpg',
+      '/images/events/asteria/AS18.jpg',
+      '/images/events/asteria/AS19.jpg',
+      '/images/events/asteria/AS20.jpg',
+      '/images/events/asteria/AS21.jpg',
+   ]
   },
 
   {
