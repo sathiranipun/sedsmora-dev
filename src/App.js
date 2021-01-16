@@ -33,7 +33,7 @@ const App =() => {
             <Route path='/about' component={AboutUs} />
           </Switch>
         </AnimatePresence>
-        <br/>
+        
         <ConnectUs/>
      
     </div>
