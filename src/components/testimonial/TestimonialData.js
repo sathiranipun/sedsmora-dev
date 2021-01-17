@@ -14,7 +14,7 @@ export const TestimonialData = [
   },
 
   { 
-    avatarImg: './images/testimonial/test3.jpg',
+    avatarImg: './images/testimonial/nipuna2.jpg',
     imgAlt: 'avatar',
     description: 'I attended to the night camp which was organized by SEDS MORA in 2019. Actually it became a valuable opportunity to improve my astronomy knowledge',
     name: 'Nipun Piyumantha'
