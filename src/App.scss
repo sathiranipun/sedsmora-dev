@@ -9,9 +9,12 @@ body {
 
 .slick-dots li {
   button:before {
+    display: block;
     margin-top: 6px;
     margin-bottom: 4px;
     border-radius: 50%;
+    padding-left: 0;
     font-size: 15px !important;
+    background-color: rgba(240, 248, 255, 0.671);
   }
 }
