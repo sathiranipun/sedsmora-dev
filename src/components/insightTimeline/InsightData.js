@@ -6,7 +6,7 @@ export const InsightData = [
     month: 'jan',
     date1: '03',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock,
-    image: './images/carouselimages/carousel1.jpg'
+    image: './images/insights/jan03.jpg'
   },
 
   {
@@ -90,5 +90,20 @@ export const InsightData = [
     image: './images/carouselimages/carousel5.jpg'
   },
 
+  {
+    title: "Conjunction of Venus and Pluto",
+    description: `Venus and 134340 Pluto will share the same right ascension, with Venus passing 0°44' to the north of 134340 Pluto.
+
+    From Colombo however, the pair will not be observable – they will reach their highest point in the sky during daytime and will be no higher than 7° above the horizon at dawn.
+    
+    Venus will be at mag -3.9, and 134340 Pluto at mag 15.0, both in the constellation Sagittarius.
+    
+    The pair will be a little too widely separated to fit comfortably within the field of view of a telescope, but will be visible through a pair of binoculars.`,
+    date: 'Jan 29, 2021',
+    month: 'jan',
+    date1: '29',
+    icon: 'falling-star', //falling-star, rocket, astronaut, clock
+    image: './images/carouselimages/carousel5.jpg'
+  },
 
 ]
