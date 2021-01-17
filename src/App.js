@@ -11,6 +11,8 @@ import Insights from './pages/Insights';
 import AboutUs from './pages/AboutUs'; 
 import Aos from 'aos';
 import "aos/dist/aos.css"
+import Blogs from './pages/Blogs';
+import QRCode from './pages/QRCode';
 
 const App =() => {
 
@@ -30,6 +32,8 @@ const App =() => {
             <Route path='/' exact component={Homepage} />
             <Route path='/events' component={Eventspage} />
             <Route path='/insights' component={Insights} />
+            <Route path='/blogs' component={Blogs} />
+            <Route path='/contactus' component={QRCode} />
             <Route path='/about' component={AboutUs} />
           </Switch>
         </AnimatePresence>

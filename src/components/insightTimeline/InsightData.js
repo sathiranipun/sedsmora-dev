@@ -16,7 +16,7 @@ export const InsightData = [
     month: 'jan',
     date1: '06',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel2.jpg'
+    image: './images/insights/jan06.jpg'
   },
 
   {
@@ -28,7 +28,7 @@ export const InsightData = [
     month: 'jan',
     date1: '10',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel3.jpg'
+    image: './images/insights/jan10.png'
   },
 
   {
@@ -40,7 +40,7 @@ export const InsightData = [
     month: 'jan',
     date1: '11',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel4.jpg'
+    image: './images/insights/jan11.jpg'
   },
 
   {
@@ -52,7 +52,7 @@ export const InsightData = [
     month: 'jan',
     date1: '12',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel4.jpg'
+    image: './images/insights/jan12.jpg'
   },
 
   {
@@ -62,7 +62,7 @@ export const InsightData = [
     month: 'jan',
     date1: '14',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel5.jpg'
+    image: './images/insights/jan14.jpg'
   },
 
   {
@@ -74,7 +74,7 @@ export const InsightData = [
     month: 'jan',
     date1: '19',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel5.jpg'
+    image: './images/insights/jan19.png'
   },
 
   
@@ -87,7 +87,7 @@ export const InsightData = [
     month: 'jan',
     date1: '21',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel5.jpg'
+    image: './images/insights/jan21.jpg'
   },
 
   {
@@ -103,7 +103,7 @@ export const InsightData = [
     month: 'jan',
     date1: '29',
     icon: 'falling-star', //falling-star, rocket, astronaut, clock
-    image: './images/carouselimages/carousel5.jpg'
+    image: './images/insights/jan29.jpg'
   },
 
 ]
