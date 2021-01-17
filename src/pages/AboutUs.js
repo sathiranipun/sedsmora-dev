@@ -34,7 +34,7 @@ const AboutUs = () => {
 
 
   return (
-    <motion.div className="AboutUs" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
+    <div className="AboutUs" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
       <div className="blur-layer">
         <div className="about-main-title about-title" >About Us</div>
         <div className="about-sub-title" data-aos="fade-left">What is SEDS</div>
@@ -93,7 +93,7 @@ const AboutUs = () => {
         <br/><br/>
 
       </div>
-    </motion.div>
+    </div>
   )
 }
 
