@@ -70,14 +70,14 @@ function Navbar() {
             <ul>
             <li className="nav-item nav-btn right-item">
               { button? (
-                <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+                <Link to='/contactus' className='btn-link' onClick={closeMobileMenu}>
                   <Button buttonStyle='btn--outline'>
                     CONTACT US
                   </Button>
                 </Link>
               ): (
-                <Link to='/sign-up' className="btn-link" onClick={closeMobileMenu}>
-                  <Button to='/sign-up' buttonStyle="btn--outline" buttonSize='btn--mobile'>
+                <Link to='/contactus' className="btn-link" onClick={closeMobileMenu}>
+                  <Button buttonStyle="btn--outline" buttonSize='btn--mobile'>
                     CONTACT US
                   </Button>
                 </Link>
