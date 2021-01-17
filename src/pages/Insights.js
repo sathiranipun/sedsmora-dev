@@ -32,7 +32,7 @@ const Insights = () => {
   const BGCOLOR = [ 'bg-purple' ,'bg-blue' ,'bg-pink', 'bg-green' ];
 
   return (
-    <motion.div className="Insights" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
+    <div className="Insights" initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransitions}>
       
         <div className="insight-blur-layer">
           <div className="about-title">Insights</div>
@@ -46,7 +46,7 @@ const Insights = () => {
           </div>
         </div>
       
-    </motion.div>
+    </div>
   )
 }
 
