@@ -1,138 +1,199 @@
 export const ExTeam = [
-  { 
-    avatarImg: './images/testimonial/lahiru.jpg',
-    imgAlt: 'avatar',
-    designation: 'President',
-    name: 'Lahiru Udara'
+  {
+    avatarImg: "./images/team/executive/Chamath.jpg",
+    imgAlt: "avatar",
+    designation: "President",
+    name: "Chamath Shamal",
   },
 
-  { 
-    avatarImg: './images/testimonial/dilanjanee.jpg',
-    imgAlt: 'avatar',
-    designation: 'Secretary',
-    name: 'Dilanjanee Udeshika'
+  {
+    avatarImg: "./images/team/executive/Kalindu.jpg",
+    imgAlt: "avatar",
+    designation: "Secretary",
+    name: "Kalindu Prabhash",
   },
 
-  { 
-    avatarImg: './images/testimonial/madura.jpg',
-    imgAlt: 'avatar',
-    designation: 'Vice President',
-    name: 'Madura Cooray'
+  {
+    avatarImg: "./images/team/executive/Vinuri.jpg",
+    imgAlt: "avatar",
+    designation: "Vice President",
+    name: "Vinuri Ambegoda",
   },
 
-  { 
-    avatarImg: './images/testimonial/apsara.jpg',
-    imgAlt: 'avatar',
-    designation: 'Vice Secretary',
-    name: 'Apsara Kularathne'
+  {
+    avatarImg: "./images/team/executive/Upadya.jpg",
+    imgAlt: "avatar",
+    designation: "Vice Secretary",
+    name: "Upadya Prabhashini",
   },
 
-  { 
-    avatarImg: './images/testimonial/kavindu.jpg',
-    imgAlt: 'avatar',
-    designation: 'Treasurer',
-    name: 'Kavindu Nadeeshana'
+  {
+    avatarImg: "./images/team/executive/Johan.jpg",
+    imgAlt: "avatar",
+    designation: "Treasurer",
+    name: "Johan Perera",
   },
 
-  { 
-    avatarImg: './images/testimonial/sathira.jpg',
-    imgAlt: 'avatar',
-    designation: 'Editor',
-    name: 'Sathira Nipun'
+  {
+    avatarImg: "./images/team/executive/Madhuka.jpg",
+    imgAlt: "avatar",
+    designation: "Membership Development Manager",
+    name: "Madhuka Dilshan",
   },
 
-  { 
-    avatarImg: './images/testimonial/nipuna.jpg',
-    imgAlt: 'avatar',
-    designation: 'Membership Development Manager',
-    name: 'Nipuna Madugalle'
+  {
+    avatarImg: "./images/team/executive/Nuwan.jpg",
+    imgAlt: "avatar",
+    designation: "Co-Project Manager",
+    name: "Nuwan Bandara",
   },
 
-  { 
-    avatarImg: './images/testimonial/maheshi.jpg',
-    imgAlt: 'avatar',
-    designation: 'Financial Manager',
-    name: 'Maheshi Hemachandra'
+  {
+    avatarImg: "./images/team/executive/Sumudu.jpg",
+    imgAlt: "avatar",
+    designation: "Co-Project Manager",
+    name: "Sumudu Adikaram",
   },
 
-  { 
-    avatarImg: './images/testimonial/sanjula.jpg',
-    imgAlt: 'avatar',
-    designation: 'Project Manager',
-    name: 'Sanjula Thiranjaya'
+  {
+    avatarImg: "./images/team/executive/sudarshini.jpg",
+    imgAlt: "avatar",
+    designation: "Partnership Development Manager",
+    name: "Sudarshini Rasa",
   },
 
-]
+  {
+    avatarImg: "./images/team/executive/Pubudu.jpg",
+    imgAlt: "avatar",
+    designation: "Creative Design Manager",
+    name: "Pubudu Dissanayake",
+  },
+
+  {
+    avatarImg: "./images/team/executive/Abirame.jpg",
+    imgAlt: "avatar",
+    designation: "Editorial Manager",
+    name: "Ganeshamoorthy Abirame",
+  },
+
+  {
+    avatarImg: "./images/team/executive/Dileepa.jpg",
+    imgAlt: "avatar",
+    designation: "Web & Technology Manager",
+    name: "Dileepa Lakshan",
+  },
+];
 
 export const LwTeam = [
-  { 
-    avatarImg: './images/testimonial/ishara.jpg',
-    imgAlt: 'avatar',
-    designation: 'E-FAC Coorinator',
-    name: 'Ishara Sandanuwan'
+  {
+    avatarImg: "./images/team/committee/Vimukthi.jpg",
+    imgAlt: "avatar",
+    designation: "E-FAC Coordinator",
+    name: "Vimukthi Rajith",
   },
 
-  { 
-    avatarImg: './images/testimonial/dileepa.jpg',
-    imgAlt: 'avatar',
-    designation: 'IT-FAC Coorinator',
-    name: 'Dileepa Lakshan'
+  {
+    avatarImg: "./images/team/committee/Vidumini.jpg",
+    imgAlt: "avatar",
+    designation: "IT-FAC Coordinator",
+    name: "Vidumini Bandara",
   },
 
-  { 
-    avatarImg: './images/testimonial/sugith.jpg',
-    imgAlt: 'avatar',
-    designation: 'ARCHI-FAC Coorinator',
-    name: 'Sugith Eranda'
+  {
+    avatarImg: "./images/team/committee/Thisara.jpg",
+    imgAlt: "avatar",
+    designation: "ARCHI-FAC Coordinator",
+    name: "Thisara Bandara",
   },
 
-  { 
-    avatarImg: './images/testimonial/vinuri.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Vinuri Ambegoda'
+  {
+    avatarImg: "./images/team/committee/Pramuditha.jpg",
+    imgAlt: "avatar",
+    designation: "B-FAC Coordinator",
+    name: "Pramuditha Lakshan",
   },
 
-  { 
-    avatarImg: './images/testimonial/chamath.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Chamath Shamal'
+  {
+    avatarImg: "./images/team/committee/Asel.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Asel Perera",
   },
 
-  { 
-    avatarImg: './images/testimonial/anurisha.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Anurisha Dunuwila'
+  {
+    avatarImg: "./images/team/committee/Chirantha.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Chirantha Kurukulasuriya",
   },
 
-  { 
-    avatarImg: './images/testimonial/kalindu.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Kalindu Prabash'
+  {
+    avatarImg: "./images/team/committee/Dilshan.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Dilshan Jayawickrama",
   },
 
-  { 
-    avatarImg: './images/testimonial/sumudu.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Sumudu Peiris'
+  {
+    avatarImg: "./images/team/committee/Senuruk.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Dilan Senuruk",
   },
 
-  { 
-    avatarImg: './images/testimonial/nuwan.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Nuwan Bandara'
+  {
+    avatarImg: "./images/team/committee/Diluksha.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Diluksha Rukmal",
   },
 
-  { 
-    avatarImg: './images/testimonial/malithi.jpg',
-    imgAlt: 'avatar',
-    designation: 'Committee Member',
-    name: 'Malithi Liyanage'
+  {
+    avatarImg: "./images/team/committee/Hansini.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Hansini Rashmika",
   },
-]
 
+  {
+    avatarImg: "./images/team/committee/Harsha.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Harsha Amarasinghe",
+  },
+
+  {
+    avatarImg: "./images/team/committee/Nethmi.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Nethmi Semali",
+  },
+
+  {
+    avatarImg: "./images/team/committee/Piumi.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Piumi Anuththara",
+  },
+
+  {
+    avatarImg: "./images/team/committee/Priyan.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Priyan Dilshan",
+  },
+
+  {
+    avatarImg: "./images/team/committee/Viraj.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Viraj Wijesooriya",
+  },
+
+  {
+    avatarImg: "./images/team/committee/Wikum.jpg",
+    imgAlt: "avatar",
+    designation: "Committee Member",
+    name: "Wikum Jayasanka",
+  },
+];
