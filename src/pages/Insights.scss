@@ -1,9 +1,8 @@
 .Insights {
   //background-color: #444;
-  background-image: url('../background1.jpg');
+  background-image: url("../background1.jpg");
   //margin-bottom: 80px;
   width: 100vw;
-  
 }
 
 .insight-blur-layer {
@@ -21,6 +20,7 @@
   color: rgb(228, 226, 226);
   font-size: 1.1em;
   text-align: center;
+  height: 500px;
 }
 
 .insight-timeline {
